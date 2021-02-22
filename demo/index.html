@@ -1,0 +1,37 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Chipsable - Demo</title>
+    <script src="../chipsable.js"></script>
+</head>
+<body>
+    <h1>Chipsable - Demo</h1>
+    <hr>
+    INPUT
+    <div>
+        <input class="field" value="123,abc">
+    </div>
+    <hr>
+    TEXTAREA
+    <div>
+        <textarea class="field">123,abc</textarea>
+    </div>
+    <hr>
+    DIV
+    <div>
+        <div class="field">123,abc</div>
+    </div>
+    <hr>
+    
+    <script>
+    var chips1 = new Chipsable({
+        selector: '.field',
+        separator: ',',
+        cleanBlanks: true,
+        hideSource: false,
+    });
+    </script>
+</body>
+</html>
