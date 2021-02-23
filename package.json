@@ -1,0 +1,22 @@
+{
+  "name": "@bensvault/chipsable",
+  "version": "1.0.0",
+  "description": "Make \"chips\" texts from an input text",
+  "main": "chipsable.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "BenjaminLeseur",
+  "license": "LGPL-2.1",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BenjaminLeseur/chipsable.git"
+  },
+  "keywords": [
+    "js"
+  ],
+  "bugs": {
+    "url": "https://github.com/BenjaminLeseur/chipsable/issues"
+  },
+  "homepage": "https://github.com/BenjaminLeseur/chipsable#readme"
+}
