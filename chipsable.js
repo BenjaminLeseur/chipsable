@@ -365,9 +365,7 @@ Chipsable.prototype.exportText = function (chips) {
 Chipsable.prototype.updateSourceText = function (chips) {
   var text = this.exportText(chips);
   var rand = chips.getAttribute("data-chips-rand");
-  var source = document.querySelector(
-    this.config.selector + '[data-chips-source="' + rand + '"]'
-  );
+  var source = document.querySelector('[data-chips-source="' + rand + '"]');
   var prop = source.getAttribute('data-chips-prop');
   source[prop] = text;
 };
